@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="codigo.js" defer></script>
+</head>
+<body>
+    <header class="topo">
+        <div class="contanier" id="topo-contanier">
+            <strong>Newsletter</strong>
+            <button id="btnTema" class="btn">Alterar Tema 🌓</button>
+        </div>
+    </header>
+    <main class="contanier">
+        <section class="caixa" id="contanier-caixa">
+            <h1>Inscreva-se</h1>
+            <p>Receba novidades no seu email.</p>
+
+            <form>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="inome" placeholder="Digite seu nome" required>
+            </form>
+            <form>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="iemail" placeholder="Digite seu email" required>
+                <button type="submit" class="primario">Confirma</button>
+            </form>
+        </section>
+    </main>
+    <footer class="rodape">
+        <div class="contanier">
+            <small>Newsletter <span id="ano"></span></small>
+        </div>
+    </footer>
+</body>
+</html>
